@@ -1,0 +1,124 @@
+{
+  "about": [
+    {
+      "_id": "69a05bcefc5d28058deeed0e",
+      "title": "About Me",
+      "description": "Hello! I'm a passionate full-stack developer with over 5 years of experience in creating beautiful and functional web applications. I specialize in modern web technologies and love turning complex problems into simple, elegant solutions.",
+      "updatedAt": "2026-02-26T15:02:46.962Z",
+      "__v": 0
+    }
+  ],
+  "stats": [
+    {
+      "_id": "69a05bcefc5d28058deeed10",
+      "number": "5",
+      "label": "Projects Completed",
+      "__v": 0
+    },
+    {
+      "_id": "69a05bcefc5d28058deeed11",
+      "number": "30+",
+      "label": "Happy Clients",
+      "__v": 0
+    },
+    {
+      "_id": "69a05bcefc5d28058deeed12",
+      "number": "5+",
+      "label": "Years Experience",
+      "__v": 0
+    }
+  ],
+  "skills": [
+    {
+      "_id": "69a05bcefc5d28058deeed14",
+      "category": "Frontend Development",
+      "items": [
+        "HTML5 & CSS3",
+        "JavaScript"
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "69a05bcefc5d28058deeed15",
+      "category": "Backend Development",
+      "items": [
+        "Node.js",
+        "MongoDB"
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "69a05bcefc5d28058deeed17",
+      "category": "Soft Skills",
+      "items": [
+        "Problem Solving",
+        "Team Collaboration",
+        "Project Management",
+        "Communication",
+        "Leadership"
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "69a06342d45363f44f062890",
+      "category": "Tools & Technologies",
+      "items": [
+        "Git & GitHub"
+      ],
+      "__v": 0
+    }
+  ],
+  "achievements": [
+    {
+      "_id": "69a05bcffc5d28058deeed19",
+      "icon": "🏆",
+      "title": "Best Developer Award",
+      "description": "Recognized for outstanding contributions to web development in 2024",
+      "__v": 0
+    },
+    {
+      "_id": "69a05bcffc5d28058deeed1a",
+      "icon": "⭐",
+      "title": "Open Source Contributor",
+      "description": "Active contributor to multiple popular open-source projects",
+      "__v": 0
+    },
+    {
+      "_id": "69a05bcffc5d28058deeed1b",
+      "icon": "📚",
+      "title": "Technical Speaker",
+      "description": "Delivered talks at 10+ tech conferences and meetups",
+      "__v": 0
+    },
+    {
+      "_id": "69a05bcffc5d28058deeed1c",
+      "icon": "🎓",
+      "title": "Certifications",
+      "description": "AWS Certified Solutions Architect and Google Cloud Professional",
+      "__v": 0
+    }
+  ],
+  "contactInfo": [
+    {
+      "_id": "69a05bcffc5d28058deeed1e",
+      "type": "Email",
+      "value": "shashank182004@gmail.com",
+      "link": "mailto:john@example.com",
+      "__v": 0
+    },
+    {
+      "_id": "69a05bcffc5d28058deeed1f",
+      "type": "Phone",
+      "value": "8147220887",
+      "link": "tel:+1234567890",
+      "__v": 0
+    },
+    {
+      "_id": "69a05bcffc5d28058deeed20",
+      "type": "Location",
+      "value": "karnataka, India",
+      "__v": 0
+    }
+  ],
+  "lastUpdated": "2026-02-26T15:43:21.452Z"
+}

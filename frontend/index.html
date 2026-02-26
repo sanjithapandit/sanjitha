@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Sanjitha S Pandit</h1>
+            </div>
+            <!-- Navigation Bar -->
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li style="display: none;"><a href="admin.html" class="nav-link admin-link">Admin</a></li>
+                </ul>
+            </nav>
+            <!-- Mobile Menu Toggle -->
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2 class="hero-title">Welcome to My Portfolio</h2>
+            <p class="hero-subtitle">Front-End Developer | Problem Solver</p>
+            <a href="#contact" class="cta-button">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text" id="aboutText">
+                    <p>Loading about section...</p>
+                </div>
+                <div class="about-stats" id="aboutStats">
+                    <p>Loading stats...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid" id="skillsGrid">
+                <p>Loading skills...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements & Awards</h2>
+            <div class="achievements-grid" id="achievementsGrid">
+                <p>Loading achievements...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle">Feel free to reach out for collaborations or just a friendly hello!</p>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+            <div class="contact-info" id="contactInfo">
+                <p>Loading contact information...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Messages Section -->
+    <section id="messages" class="messages">
+        <div class="container">
+            <h2 class="section-title">All Messages</h2>
+            <div id="contactsList" style="max-width: 800px; margin: 0 auto;">
+                <p style="text-align: center; padding: 20px;">Loading messages...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#achievements">Achievements</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Me</h4>
+                    <ul>
+                        <li><a href="https://github.com" target="_blank">GitHub</a></li>
+                        <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                        <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sanjitha S Pandit. All rights reserved.</p>
+                <p>Designed & Developed with <span class="heart">❤</span> by Sanjitha</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Admin Panel</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="admin-container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <div class="admin-logo">
+                <h2>Admin Panel</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-btn active" data-section="about">About</a></li>
+                <li><a href="#stats" class="nav-btn" data-section="stats">Stats</a></li>
+                <li><a href="#skills" class="nav-btn" data-section="skills">Skills</a></li>
+                <li><a href="#achievements" class="nav-btn" data-section="achievements">Achievements</a></li>
+                <li><a href="#contact-info" class="nav-btn" data-section="contact-info">Contact Info</a></li>
+                <li><a href="#messages" class="nav-btn" data-section="messages">Messages</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="admin-content">
+            <!-- About Section -->
+            <section id="about-section" class="content-section active">
+                <h2>Edit About Section</h2>
+                <form id="aboutForm" class="form-group">
+                    <div>
+                        <label>Title</label>
+                        <input type="text" id="aboutTitle" placeholder="Section title" required>
+                    </div>
+                    <div>
+                        <label>Description</label>
+                        <textarea id="aboutDescription" placeholder="About description" rows="8" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Save About</button>
+                </form>
+            </section>
+
+            <!-- Stats Section -->
+            <section id="stats-section" class="content-section">
+                <h2>Manage Stats</h2>
+                <form id="statForm" class="form-group">
+                    <div>
+                        <label>Number</label>
+                        <input type="text" id="statNumber" placeholder="e.g., 50+" required>
+                    </div>
+                    <div>
+                        <label>Label</label>
+                        <input type="text" id="statLabel" placeholder="e.g., Projects Completed" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Add Stat</button>
+                </form>
+
+                <div id="statsList" class="items-list">
+                    <h3>Current Stats</h3>
+                    <div id="statsContainer"></div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills-section" class="content-section">
+                <h2>Manage Skills</h2>
+                <form id="skillForm" class="form-group">
+                    <div>
+                        <label>Category</label>
+                        <input type="text" id="skillCategory" placeholder="e.g., Frontend Development" required>
+                    </div>
+                    <div>
+                        <label>Items (comma-separated)</label>
+                        <textarea id="skillItems" placeholder="e.g., HTML5, CSS3, JavaScript" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Add Skill</button>
+                </form>
+
+                <div id="skillsList" class="items-list">
+                    <h3>Current Skills</h3>
+                    <div id="skillsContainer"></div>
+                </div>
+            </section>
+
+            <!-- Achievements Section -->
+            <section id="achievements-section" class="content-section">
+                <h2>Manage Achievements</h2>
+                <form id="achievementForm" class="form-group">
+                    <div>
+                        <label>Icon/Emoji</label>
+                        <input type="text" id="achievementIcon" placeholder="e.g., 🏆" maxlength="5" required>
+                    </div>
+                    <div>
+                        <label>Title</label>
+                        <input type="text" id="achievementTitle" placeholder="Achievement title" required>
+                    </div>
+                    <div>
+                        <label>Description</label>
+                        <textarea id="achievementDescription" placeholder="Achievement description" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Add Achievement</button>
+                </form>
+
+                <div id="achievementsList" class="items-list">
+                    <h3>Current Achievements</h3>
+                    <div id="achievementsContainer"></div>
+                </div>
+            </section>
+
+            <!-- Contact Info Section -->
+            <section id="contact-info-section" class="content-section">
+                <h2>Manage Contact Info</h2>
+                <form id="contactInfoForm" class="form-group">
+                    <div>
+                        <label>Type</label>
+                        <input type="text" id="infoType" placeholder="e.g., Email, Phone, Location" required>
+                    </div>
+                    <div>
+                        <label>Value</label>
+                        <input type="text" id="infoValue" placeholder="e.g., john@example.com" required>
+                    </div>
+                    <div>
+                        <label>Link (optional)</label>
+                        <input type="text" id="infoLink" placeholder="e.g., mailto:john@example.com">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Add Contact Info</button>
+                </form>
+
+                <div id="contactInfoList" class="items-list">
+                    <h3>Current Contact Info</h3>
+                    <div id="contactInfoContainer"></div>
+                </div>
+            </section>
+
+            <!-- Messages Section -->
+            <section id="messages-section" class="content-section">
+                <h2>View Messages</h2>
+                <div id="messagesList" class="items-list">
+                    <div id="messagesContainer"></div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>
