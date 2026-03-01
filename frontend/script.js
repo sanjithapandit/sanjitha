@@ -7,7 +7,7 @@ const navList = document.querySelector('.nav-list');
 const navLinks = document.querySelectorAll('.nav-link');
 
 // API URL
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://sanju-portfolio-backend.onrender.com';
 
 // ===== OFFLINE/ONLINE STATUS MANAGER =====
 let isOnline = navigator.onLine;
